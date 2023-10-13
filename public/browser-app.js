@@ -1,4 +1,3 @@
-// Code from course linked in readme on github
 const formDOM = document.querySelector('.form')
 const usernameInputDOM = document.querySelector('.username-input')
 const passwordInputDOM = document.querySelector('.password-input')
