@@ -1,0 +1,86 @@
+/* Reset default margin and padding */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Center the main content vertically and horizontally */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Optional background color */
+  min-height: 100vh;
+}
+
+/* Style the main container */
+main {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Style the form */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the form contents horizontally */
+  margin-top: 20px;
+}
+
+/* Style form elements */
+.form-label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: left;
+  width: 100%; /* Ensure labels take full width */
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-alert {
+  color: red;
+  margin-top: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+/* Style the container */
+.container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Style the result container */
+.result {
+  border: none ;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Additional styles as needed */
